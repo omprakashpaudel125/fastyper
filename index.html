@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="shortcut icon" href="fast.png" type="image/x-icon">
+    <title>Fastyper</title>
+    
+</head>
+<body>
+    
+    <section class="main-body">
+        <!-- <h2>fastyper.github.io</h2> -->
+        <h2>Test Your Speed !!</h2>
+
+        <div class = "timerdiv"> 
+            <p id = "showtimer"> </p>
+        </div>
+
+        <!-- This is where I needed help  -->
+        <!-- So i was thinking to add 3 more buttons 
+        -normal for normal text 
+        -number for sentences with numbers 
+        -punctuation for sentences with symbols 
+    
+        I've issues in my js part please contribute -->
+        <!-- <div id="button-group">
+            <button id="normal-button" class="selected">Normal</button>
+            <button id="number-button">Number</button>
+            <button id="punctuation-button">Punctuation</button>
+        </div> -->
+
+        <p id="showsentence"></p>
+        <div class="typing-section">
+            <label for="textarea"></label>
+            <textarea name="textarea" id="textarea" onfocus="clearDefaultText()" style="opacity:0.5;" disabled cols="30" rows="10" placeholder="Type here..."></textarea>
+            <br>
+            <button id="btn">Start</button>
+        </div>
+
+    <p id="score"></p>
+
+    </section>
+
+
+    <footer>
+        <p>Made with ❤️ by Om Prakash <a href="https://github.com/omprakashpaudel125" class = "githublink" target="_blank"><i class="fab fa-github"></i></a></p>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

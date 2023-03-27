@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(166, 165, 182, 0.55);
+    flex-direction: column;
+}
+
+.typing-section{
+    text-align: center;
+}
+::selection{
+    background-color: #dcea73;
+}
+#textarea{
+    border: .1rem solid #434724;
+    border-radius: 1rem;
+    max-width: 50rem;
+    width: 50rem;
+    height: 20rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+}
+.timerdiv{
+    width: 100%;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+
+}
+#btn{
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #645CBB;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+}
+.showtimer{
+    font-size: 3rem;
+    color: #645CBB;
+}
+
+h2{
+    font-size: 2.4rem;
+    /* text-transform: capitalize; */
+    color: #645CBB;
+    text-align: center;
+}
+/* 
+----------------------This is where I need help---------------------------
+
+
+ #button-group button {
+    background-color: #DDD;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  #button-group.button.selected {
+    background-color: #6CC;
+    color: #FFF;
+  } 
+
+
+------------------------------------------------------------------------ 
+*/
+#showsentence, #score{
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    letter-spacing: .02rem;
+    text-align: center;
+}
+#showtimer{
+    font-size: 1.75rem;
+    padding : 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    /* border : .2rem solid #645CBB */
+}
+footer {
+    background-color: rgba(166, 165, 182, 0.55);
+    border-top: 1px solid white;
+    bottom: 0;
+    /* margin-bottom: 0; */
+    position : absolute; 
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+  }
+.githublink:hover{
+    /* background-color: #dcea73; */
+    transition: color 2s;
+    color: #ff69b4;
+     
+}
